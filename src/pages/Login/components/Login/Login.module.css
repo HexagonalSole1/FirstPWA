@@ -1,0 +1,32 @@
+.loginImage{
+  width: 40%;
+  height: 40%;
+  border-radius: 100%;
+}
+
+.inputs{
+  border-radius: 3px;
+border: .5px solid rgb(124, 109, 120);
+width: 50%;
+height: 25px;
+box-shadow: none;
+outline:none;
+}
+.inputs:focus {
+  border: 3px solid #a241af;
+  box-shadow: none;
+  outline:none;
+}
+.loginInput{
+  margin-top: 20px;
+  border: 0px;
+  border-radius: 4px;
+  width: 50%;
+  height: 40px;
+  background-color: #d47bfd;
+}
+.loginInput:hover{
+ transform: scale(1.3);
+ transition: 2s;
+  background-color: #c760f7;
+}
